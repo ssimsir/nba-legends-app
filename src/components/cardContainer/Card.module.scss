@@ -1,8 +1,11 @@
 .main{
+   margin: 1rem 7vw;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
    background-color: #F4D367;
+   background-image: url("../../assets/bgNBA.jpg");
+   border-radius: 15px;
 
    
 }
@@ -10,7 +13,7 @@
 .card {
    width: 400px;
    height: 550px;
-   
+   border: 1px solid azure;
    margin: 2rem 1rem; 
    background-color: white;
    border-radius: 15px;
@@ -36,7 +39,8 @@
    }
 
    .statistics{
-      
+      font-size: 2rem;
+      font-weight: 500;
       display: flex;
       align-items: center;
       justify-content: center;
